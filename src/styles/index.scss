@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+
+@import './variables.scss';
+@import './misc.scss';
+@import './pages/main.scss';
+@import './pages/music.scss';
+@import './pages/tourdates.scss';
+@import './pages/video.scss';
+@import './pages/about.scss';
+@import './pages/media.scss';
+
+
+
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color:$characters;
+  display:flex;
+  flex-direction:column;
+  margin:0;
+  overflow-x:hidden;
+}
+
+section{
+  margin:0 11% 0 11%;
+}
+
+.formComponent{
+
+}
+
+
+.bgimg{
+  background-size:cover;
+}

@@ -1,0 +1,40 @@
+.about{
+  height:80vh;
+  background-color:$pink;
+
+  text-align:center;
+  color:#515151;
+
+img{
+  margin:0 0 0 18px;
+
+}
+
+}
+.aboutButton{
+  width:200px;
+  font-size:18px;
+  background-color:$lightgreen;
+  border:none;
+  padding: 8px ;
+  font-weight:500;
+}
+
+.headline{
+margin: 5% 0 5% 0;
+font-size:28px;
+letter-spacing: 6.97px;
+font-weight:500;
+display:flex;
+align-items:center;
+justify-content:center;
+
+}
+.text{
+  font-size:18px;
+  text-align: justify;
+  color:rgb(17, 17, 19);
+  padding:0 15% 5% 15%;
+  font-weight:400;
+}
+
