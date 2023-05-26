@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
 
-@import './variables.scss';
+// @import './variables.scss';
+@import './variablesAndMixins';
 @import './misc.scss';
 @import './pages/main.scss';
 @import './pages/music.scss';
@@ -9,10 +10,10 @@
 @import './pages/video.scss';
 @import './pages/about.scss';
 @import './pages/media.scss';
-
-
-
 @import './main.scss';
+
+
+@import './responsive.scss';
 
 // body {
 //   font-family: 'Poppins', sans-serif;
