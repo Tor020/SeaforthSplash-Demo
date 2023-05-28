@@ -1,3 +1,4 @@
+
 .about{
   height:80vh;
   background-color:$pink;
@@ -11,13 +12,26 @@ img{
 }
 
 }
+.aboutblend{
+  position:absolute;
+  background-image:url('../images/aboutBlend.png');
+
+  background-size: cover;
+  height: 80vh;
+  width: 100vw;
+  mix-blend-mode: luminosity;
+
+
+}
 .aboutButton{
-  width:200px;
+  width:220px;
   font-size:18px;
   background-color:$lightgreen;
   border:none;
   padding: 8px ;
-  font-weight:500;
+  font-weight:550;
+  letter-spacing: 4.48px;
+
 }
 
 .headline{
@@ -36,5 +50,5 @@ justify-content:center;
   color:rgb(17, 17, 19);
   padding:0 15% 5% 15%;
   font-weight:400;
+  
 }
-

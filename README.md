@@ -31,3 +31,11 @@ yarn build
 When you run `yarn build` we use the [mini-css-extract-plugin](https://github.com/webpack-contrib/mini-css-extract-plugin) to move the css to a separate file. The css file gets included in the head of the `index.html`.
 r
 
+
+
+```
+1199px, 991px, 767px, 480px and under. Our usual grid is 1230px or so, sometimes smaller.
+```
+
+
+[design doc](https://xd.adobe.com/view/69c59681-cc2d-4d3e-b557-0f458d999ed2-3c96/)
