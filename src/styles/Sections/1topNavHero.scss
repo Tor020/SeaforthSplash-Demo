@@ -69,6 +69,9 @@
     @include breakpoint(655px) {
       margin : 0;
     }
+    @include breakpoint(480px) {
+      margin : 0.2rem;;
+    }
   }
   * {
     display : inline;
@@ -95,6 +98,7 @@
 
 
 section.main {
+  min-height:800px;
   background-image : url(../images/heroImage.png);
   background-size : cover;
   height : 95vh;
@@ -121,6 +125,8 @@ section.main {
     margin : 0;
     height : 40vh;
   }
+  @include breakpoint(480px) {
+  }
 }
 
 
@@ -128,7 +134,44 @@ section.main {
   font-size : 48px;
 }
 
+a{
+  outline:none;
+  text-decoration:none;
+  transition:all 0.7s;
+ border-bottom:1px solid transparent;
 
+}
+a:visited{
+color:$characters;
+}
+a:hover{
+   border-bottom:1px solid $characters;
+}
+
+@media screen and (min-width: 991px) and (max-width: 1199px) {
+}
+@media screen and (min-width: 767px) and (max-width: 991px) {
+}
+@media (max-width: 767px) {
+  .headImgText{
+    width:50%;
+    height:10%;
+    margin-bottom:15%;
+  }
+
+
+  .mediaIcons {
+    display : block;
+    align-items : center;
+    margin-left : 2rem;
+    margin-right : 2rem;
+    div {
+      margin-left : 0.5rem;
+      margin-right : 0.5rem;
+      font-size : 18px;
+    }
+  }
+}
 
 
 //end hero scss

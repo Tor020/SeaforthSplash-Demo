@@ -1,31 +1,73 @@
-.media{
-  h2{
-    font-weight:400;
-    font-size:36px;
-    margin:3.5% 0 6% 0;
-    text-align:center;
+.media {
+  h2 {
+    font-weight : 400;
+    font-size : 36px;
+    margin : 3.5% 0 6% 0;
+    text-align : center;
   }
 }
-.media-container{
-  
-  display:flex;
-  align-items:center;
-  justify-content:center;
-margin:6% 0 6% 0;
+.media-container {
+  display : flex;
+  align-items : center;
+  justify-content : center;
+  margin : 6% 0 6% 0;
 }
 
-section.media{
-  height:130vh;
-  background-image:url("../images/lgTexture.png");
-  background-size:cover;
+section.media {
+  height : 130vh;
+  background-image : url("../images/lgTexture.png");
+  background-size : cover;
 }
 
-div.gallery{
-  background-image:url('../images/Layer\ 2.png');
+div.gallery {
+  background-image : url("../images/Layer\ 2.png");
   // position:absolute;
-  background-size:cover;
-  height:100vh;
-  width:100vh;
-  margin:5% 
-
+  background-size : cover;
+  height : 100vh;
+  width : 100vh;
+  margin : 5%;
 }
+
+
+@media screen and (min-width: 991px) and (max-width: 1199px) {
+}
+@media screen and (min-width: 767px) and (max-width: 991px) {
+}
+@media  (max-width: 767px) {
+  .media {
+    display : none;
+
+    h2 {
+      display : none;
+      font-weight : 400;
+      font-size : 36px;
+      margin : 3.5% 0 6% 0;
+      text-align : center;
+    }
+  }
+  .media-container {
+    display : none !important;
+
+    // display:flex;
+    // align-items:center;
+    // justify-content:center;
+    margin : 6% 0 6% 0;
+  }
+
+  section.media {
+    display : none;
+    height : 130vh;
+    background-image : url("../images/lgTexture.png");
+    background-size : cover;
+  }
+
+  div.gallery {
+    display : none;
+    background-image : url("../images/Layer\ 2.png");
+    background-size : cover;
+    height : 100vh;
+    width : 100vh;
+    margin : 5%;
+  }
+}
+

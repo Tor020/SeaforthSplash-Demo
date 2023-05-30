@@ -1,0 +1,45 @@
+// 1199px, 991px, 767px, 480px and under. Our usual grid is 1230px or so, sometimes smaller.
+
+@media screen and (min-width: 991px) and (max-width: 1199px) {
+}
+@media screen and (min-width: 767px) and (max-width: 991px) {
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .topnav {
+    display : none;
+  }
+
+  .formComponent {
+    display : none;
+  }
+  .mediaIcons {
+    display : none;
+  }
+  .topnav{
+    ol{
+      display:none;
+    }
+  }
+  
+.mobilenav{
+  ol{
+    
+  }
+
+  .mediaIcons{
+    
+  }
+}
+
+
+}
+// 955 - 767
+
+
+
+// @media screen and (min-width: 991px) and (max-width: 1199px) {
+//      .classForaMediumScreen {
+
+//      }
+// }
+
