@@ -1,5 +1,6 @@
 
 .about{
+  min-height:1100px;
   height:80vh;
   background-color:$pink;
 
@@ -17,6 +18,8 @@ img{
   background-image:url('../images/aboutBlend.png');
 
   background-size: cover;
+  min-height: 1200px;
+  
   height: 80vh;
   width: 100vw;
   mix-blend-mode: luminosity;
@@ -63,6 +66,7 @@ justify-content:center;
 @media (max-width: 767px) {
 
 .about{
+
   height:80vh;
   background-color:$pink;
 

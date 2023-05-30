@@ -29,6 +29,7 @@ section.tourdates {
 }
 .tourdates {
   height : 85vh;
+  min-height:1000px;
 }
 .bgfade {
   background-image : url("../images/tourdatesBlend.png");
@@ -47,6 +48,7 @@ section.tourdates {
 
 
 .container-tourdates {
+  
   font-size : 18px;
   margin : auto;
   max-width : 900px;
