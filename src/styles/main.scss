@@ -1,217 +1,204 @@
-$lightgreen:#B8C591;
-$pink:#f7c7bc;
-$beige:#f4f1e2;
-
-$grey:#6E6A6A;
-
-
-$characters: #2A2E39;
+$lightgreen : #b8c591;
+$pink : #f7c7bc;
+$beige : #f4f1e2;
+$grey : #6e6a6a;
+$characters : #2a2e39;
+$charactersvisited : #262a35;
 
 
 body {
-  font-family: 'Poppins', sans-serif;
-  color:$characters;
-  display:flex;
-  flex-direction:column;
-  margin:0;
-  overflow-x:hidden;
-  background-color:$beige;
-  
-    //  @include breakpoint(1309px){
-    //   // width:80%;
-    //   margin:0 auto;
-    //   text-align:center;
-    //   width:100%;
-    // }
-    //  @include breakpoint(951px){
-    //   width:80%;
-    //   margin:auto;
-    // }
+  font-family : "Poppins", sans-serif;
+  color : $characters;
+  display : flex;
+  flex-direction : column;
+  margin : 0;
+  overflow-x : hidden;
+  background-color : $beige;
+
+  //  @include breakpoint(1309px){
+  //   // width:80%;
+  //   margin:0 auto;
+  //   text-align:center;
+  //   width:100%;
+  // }
+  //  @include breakpoint(951px){
+  //   width:80%;
+  //   margin:auto;
+  // }
 }
 
 // section{
 //   margin:0 11% 0 11% auto;
 // }
 
-.container{
-    display:flex;
-justify-content:center;
-align-items:center;
+.container {
+  display : flex;
+  justify-content : center;
+  align-items : center;
 }
 
-section.main{
-  background-image:url(../images/heroImage.png);
-  background-size:cover;
+section.main {
+  background-image : url(../images/heroImage.png);
+  background-size : cover;
+  height : 95vh;
+  display : flex;
+  align-items : center;
+  justify-content : center;
 
-  height:95vh;
-display:flex;
-align-items:center;
-justify-content:center;
+  //  @include breakpoint(1507px){
+  //     // @content;
+  //     margin:0;
+  //     height:80vh;
+  //   }
+  //    @include breakpoint(1269px){
+  //     // @content;
+  //     margin:0;
+  //     height:60vh;
+  //   }
+  //    @include breakpoint(951px){
+  //     // @content;
+  //     margin:0;
+  //     height:60vh;
+  //   }
+  //     @include breakpoint(655px){
+  //     margin:0;
+  //     height: 40vh;
+  // }
+}
 
-   @include breakpoint(1507px){
-      // @content;
-      margin:0;
-      height:80vh;
-    }
-     @include breakpoint(1269px){
-      // @content;
-      margin:0;
-      height:60vh;
-    }
-     @include breakpoint(951px){
-      // @content;
-      margin:0;
-      height:60vh;
-    }
-      @include breakpoint(655px){
-      margin:0;
-      height: 40vh;
+
+.headImgText {
+  align-self : flex-end;
+  margin-bottom : 10%;
+  width : 1269px;
+  height : 163px;
+  @media only screen and (max-width:1255px) {
+    // @content;
+    // margin:0;
+    width : 90%;
   }
-}
-
-
-.headImgText{
-
-  align-self:flex-end;
-  margin-bottom:10%;
-  width: 1269px;
-  height: 163px;
-      @media only screen and (max-width:1255px) {
-      // @content;
-      // margin:0;
-      width: 90%;
-    }
 }
 
 
 
 // misc
 
-  .topnav{
-    margin:0 11% 0 11%;
-    height:10vh;
-    background-color:$beige;
-    display:flex;
-    flex-direction:row;
+.topnav {
+  margin : 0 11% 0 11%;
+  height : 10vh;
+  background-color : $beige;
+  display : flex;
+  flex-direction : row;
 
-             @include breakpoint(655px){
-              margin:0;
-         }
+  @include breakpoint(655px) {
+    margin : 0;
+  }
 
-  .formComponent{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
-        @include breakpoint(1555px){
-      display:none;
+  .formComponent {
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+    @include breakpoint(1555px) {
+      display : none;
     }
-                 @include breakpoint(655px){
-              margin:0;
-         }
+    @include breakpoint(655px) {
+      margin : 0;
+    }
   }
 
-  .topForm{
-    display:block;
-
-
-
+  .topForm {
+    display : block;
   }
 
-  .formComponent{
-
-  .share{
-    display:flex;
-    width:100%;
-    height:50%;
-
-  }
-    button{
-      display:flex;
-      align-items:center;
-      background-color:$lightgreen;
-      border:none;
-      padding:1rem 2.5rem 1rem 2.5rem;
-      text-align:center;
+  .formComponent {
+    .share {
+      display : flex;
+      width : 100%;
+      height : 50%;
+    }
+    button {
+      display : flex;
+      align-items : center;
+      background-color : $lightgreen;
+      border : none;
+      padding : 1rem 2.5rem 1rem 2.5rem;
+      text-align : center;
     }
     // margin
   }
-  input{display:block;
-  border:none;
+  input {
+    display : block;
+    border : none;
   }
 
-  ol{
-    display:flex;
-    align-items:center;
-    margin:0 4rem 0 2rem;
+  ol {
+    display : flex;
+    align-items : center;
+    margin : 0 4rem 0 2rem;
 
-     @include breakpoint(1255px){
-
+    @include breakpoint(1255px) {
       // @content;
-      margin:0;
+      margin : 0;
     }
   }
 
-    li{
-      font-weight:700;
-      margin:0 2rem 0 2rem;
-      
-     @include breakpoint(1091px){
-margin:1rem;
+  li {
+    font-weight : 700;
+    margin : 0 2rem 0 2rem;
+
+    @include breakpoint(1091px) {
+      margin : 1rem;
     }
-      @include breakpoint(655px){
-      margin:0;
-      }
-    }
-    *{
-      display:inline;
-    }
-
-
-  }
-
-  .mediaIcons{
-    display:flex;
-    align-items:center;
-    margin-left:2rem;
-    margin-right:2rem;
-  div{
-    margin-left:0.5rem;
-    margin-right:0.5rem;
-    font-size:18px;}
-
-
-    @media only screen and (max-width:1255px) {
-      // @content;
-      margin:0;
+    @include breakpoint(655px) {
+      margin : 0;
     }
   }
+  * {
+    display : inline;
+  }
+}
+
+.mediaIcons {
+  display : flex;
+  align-items : center;
+  margin-left : 2rem;
+  margin-right : 2rem;
+  div {
+    margin-left : 0.5rem;
+    margin-right : 0.5rem;
+    font-size : 18px;
+  }
+
+
+  @media only screen and (max-width:1255px) {
+    // @content;
+    margin : 0;
+  }
+}
 
 // end misc
 
 // hero scss
 
 
-.main{
-
-
+.main {
 }
-.container{
-    display:flex;
-justify-content:center;
-align-items:center;
+.container {
+  display : flex;
+  justify-content : center;
+  align-items : center;
 }
-.hero{
-// background-image: url('../images/heroImage.png');
-// display:flex;
-// justify-content:center;
-// margin:0 11% 0 11%;
-
+.hero {
+  // background-image: url('../images/heroImage.png');
+  // display:flex;
+  // justify-content:center;
+  // margin:0 11% 0 11%;
 }
 
 
-.heroText{
-font-size:48px;
+.heroText {
+  font-size : 48px;
 }
 
 //end hero scss
@@ -219,32 +206,29 @@ font-size:48px;
 
 // music
 
-.music{
+.music {
   // height:70vh;
-  background-color:#f7c7bc;
+  background-color : #f7c7bc;
 
-  .container{
-    width:100%;
-    display:flex;
-    flex-direction:row;
-    align-items:row;
+  .container {
+    min-width : 100%;
+    display : flex;
+    flex-direction : row;
+    align-items : row;
   }
-  h2{
-    
-    font-weight:500;
-    text-align:center;
-    width:100%;
-    letter-spacing: 6.97px;
+  h2 {
+    font-weight : 500;
+    text-align : center;
+    width : 100%;
+    letter-spacing : 6.97px;
   }
-  .artLeft{
-    margin:0 2rem 0 2rem;
-    width:600px;
-    height:600px;
-    
-
+  .artLeft {
+    margin : 0 2rem 0 2rem;
+    width : 600px;
+    height : 600px;
   }
-  .artRight{
-    width:25%;
+  .artRight {
+    width : 25%;
   }
 }
 
@@ -252,259 +236,241 @@ font-size:48px;
 
 // tourdates
 
-section.tourdates{
-  background-image:url('../images/lgTexture.png');
-  background-size:cover;
+section.tourdates {
+  background-image : url("../images/lgTexture.png");
+  background-size : cover;
 
-      h2{
-    font-weight:500;
-    text-align:center;
-    width:100%;
-    letter-spacing: 6.97px;
-
-    }
-    button.tourButton{
-     margin:5% 45% 0 45%;
-     font-weight:600;
-    letter-spacing: 3.8px;      
-    padding:18px;
-
-  
-
-    }
+  h2 {
+    font-weight : 500;
+    text-align : center;
+    width : 100%;
+    letter-spacing : 6.97px;
+  }
+  button.tourButton {
+    margin : 5% 45% 0 45%;
+    font-weight : 600;
+    letter-spacing : 3.8px;
+    padding : 18px;
+  }
 }
-.tourdateButton{
+.tourdateButton {
   // align-self:flex-end;
-  width:100px;
-  height:38px;
-    // width:200px;
-  font-size:18px;
-  background-color:$lightgreen;
-  border:none;
-  padding: 8px ;
-  font-weight:500;
+  width : 100px;
+  height : 38px;
+  // width:200px;
+  font-size : 18px;
+  background-color : $lightgreen;
+  border : none;
+  padding : 8px ;
+  font-weight : 500;
 }
-.tourdates{
-  height:85vh;
-  
+.tourdates {
+  height : 85vh;
 }
-.bgfade{
-  background-image:url('../images/tourdatesBlend.png');
-  position:absolute;
+.bgfade {
+  background-image : url("../images/tourdatesBlend.png");
+  position : absolute;
   // background:transparent;
-  background-size:cover;
-height: 85vh;
-width: 636px;
+  background-size : cover;
+  height : 85vh;
+  width : 636px;
+  mix-blend-mode : luminosity;
 
-mix-blend-mode:luminosity;
-
-     @include breakpoint(997px){
-      height:85vh;
-    }
-}
- 
-
-
-.container-tourdates{
-  font-size:18px;
-  margin:auto;
-  max-width:900px;
-  display: grid; 
-  grid-template-columns: 0.9fr 1.5fr 0.4fr; 
-  grid-template-rows: 1fr 1fr 1fr; 
-  gap: 3vh 30px; 
-  grid-template-areas: 
-    ". . . "
-    ". . . "
-    ". . . "; 
-     
+  @include breakpoint(997px) {
+    height : 85vh;
+  }
 }
 
-.tickets{position:absolute;
-left:55%;}
 
-.loc{min-width:90%;}
 
-.date{text-align:right;
-margin-right:24px;}
-
-.tourdateButton{
-  text-align:right;
-
-  width:100px;
-  height:38px;
-  
-  font-size:18px;
-  background-color:$lightgreen;
-  border:none;
-  padding: 8px ;
-  font-weight:500;
+.container-tourdates {
+  font-size : 18px;
+  margin : auto;
+  max-width : 900px;
+  display : grid;
+  grid-template-columns : 0.9fr 1.5fr 0.4fr;
+  grid-template-rows : 1fr 1fr 1fr;
+  gap : 3vh 30px;
+  grid-template-areas : ". . . "
+  ". . . "
+  ". . . ";
 }
 
-.tourButton{
-  width:200px;
-  font-size:18px;
-  background-color:$lightgreen;
-  border:none;
-  padding: 8px ;
-  font-weight:500;
-  margin:auto;
-  text-align:center;
+.tickets {
+  position : absolute;
+  left : 55%;
 }
 
-.tourdates-container{
-  background-image:src('../../images/lgTexture.png')
+.loc {
+  min-width : 90%;
+}
+
+.date {
+  text-align : right;
+  margin-right : 24px;
+}
+
+.tourdateButton {
+  text-align : right;
+  width : 100px;
+  height : 38px;
+  font-size : 18px;
+  background-color : $lightgreen;
+  border : none;
+  padding : 8px ;
+  font-weight : 500;
+}
+
+.tourButton {
+  width : 200px;
+  font-size : 18px;
+  background-color : $lightgreen;
+  border : none;
+  padding : 8px ;
+  font-weight : 500;
+  margin : auto;
+  text-align : center;
+}
+
+.tourdates-container {
+  background-image : src("../../images/lgTexture.png");
 }
 
 // end tourdates
 
 // videos
 
-.videos{
-  height:70vh;
-  background-color:#B8C591;
-  font-weight:500;
-  text-align:center;
-  
-  h2{
-    font-weight:500;
+.videos {
+  height : 70vh;
+  background-color : #b8c591;
+  font-weight : 500;
+  text-align : center;
+
+  h2 {
+    font-weight : 500;
   }
-
 }
-.container{
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  padding:0 5% 0 5%;
-}
-
-.arrowL{
-margin-left:25%;
+.container {
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  padding : 0 5% 0 5%;
 }
 
-.arrowR{
-margin-right:25%;
-
+.arrowL {
+  margin-left : 25%;
 }
-.videoList{
-  margin:auto;
-  max-width:900;
-  display: grid; 
-  grid-template-columns:1fr 1fr;
-  grid-template-rows: 1fr 1fr ; 
-  gap: 3vh 0px; 
-  grid-template-areas: 
-    ". .  "
-    ". .  " ;
-      
+
+.arrowR {
+  margin-right : 25%;
+}
+.videoList {
+  margin : auto;
+  max-width : 900;
+  display : grid;
+  grid-template-columns : 1fr 1fr;
+  grid-template-rows : 1fr 1fr ;
+  gap : 3vh 0;
+  grid-template-areas : ". .  "
+  ". .  " ;
+
   // display:flex;
   // flex-wrap:wrap;
   // align-items:center;
   // justify-content:center;
-  
+
   // width:100%;
   //   img{
   //     padding:2rem;
   //     width:33%;
   //     min-width:250px;
-      
+
   //   }
 }
-div.placeholder{
-  background-color:black;
-width: 479px;
-height: 269px;
-margin:1rem 2rem 1rem 2rem
+div.placeholder {
+  background-color : black;
+  width : 479px;
+  height : 269px;
+  margin : 1rem 2rem 1rem 2rem;
 }
 
 //end videos
 
 // about
 
-.about{
-  height:80vh;
-  background-color:$pink;
+.about {
+  height : 80vh;
+  background-color : $pink;
+  text-align : center;
+  color : #515151;
 
-  text-align:center;
-  color:#515151;
-
-img{
-  margin:0 0 0 18px;
-
+  img {
+    margin : 0 0 0 18px;
+  }
+}
+.aboutblend {
+  position : absolute;
+  background-image : url("../images/aboutBlend.png");
+  background-size : cover;
+  height : 80vh;
+  width : 100vw;
+  mix-blend-mode : luminosity;
+}
+.aboutButton {
+  width : 220px;
+  font-size : 18px;
+  background-color : $lightgreen;
+  border : none;
+  padding : 8px ;
+  font-weight : 550;
+  letter-spacing : 4.48px;
 }
 
+.headline {
+  margin : 5% 0 5% 0;
+  font-size : 28px;
+  letter-spacing : 6.97px;
+  font-weight : 500;
+  display : flex;
+  align-items : center;
+  justify-content : center;
 }
-.aboutblend{
-  position:absolute;
-  background-image:url('../images/aboutBlend.png');
-
-  background-size: cover;
-  height: 80vh;
-  width: 100vw;
-  mix-blend-mode: luminosity;
-
-
-}
-.aboutButton{
-  width:220px;
-  font-size:18px;
-  background-color:$lightgreen;
-  border:none;
-  padding: 8px ;
-  font-weight:550;
-  letter-spacing: 4.48px;
-
-}
-
-.headline{
-margin: 5% 0 5% 0;
-font-size:28px;
-letter-spacing: 6.97px;
-font-weight:500;
-display:flex;
-align-items:center;
-justify-content:center;
-
-}
-.text{
-  font-size:18px;
-  text-align: justify;
-  color:rgb(17, 17, 19);
-  padding:0 15% 5% 15%;
-  font-weight:400;
-  
+.text {
+  font-size : 18px;
+  text-align : justify;
+  color : rgb(17, 17, 19);
+  padding : 0 15% 5% 15%;
+  font-weight : 400;
 }
 
 // end about
-.media{
-  h2{
-    font-weight:400;
-    font-size:36px;
-    margin:3.5% 0 6% 0;
-    text-align:center;
+.media {
+  h2 {
+    font-weight : 400;
+    font-size : 36px;
+    margin : 3.5% 0 6% 0;
+    text-align : center;
   }
 }
-.media-container{
-  
-  display:flex;
-  align-items:center;
-  justify-content:center;
-margin:6% 0 6% 0;
+.media-container {
+  display : flex;
+  align-items : center;
+  justify-content : center;
+  margin : 6% 0 6% 0;
 }
 
-section.media{
-  height:130vh;
-  background-image:url("../images/lgTexture.png");
-  background-size:cover;
+section.media {
+  height : 130vh;
+  background-image : url("../images/lgTexture.png");
+  background-size : cover;
 }
 
-div.gallery{
-  background-image:url('../images/Layer\ 2.png');
+div.gallery {
+  background-image : url("../images/Layer\ 2.png");
   // position:absolute;
-  background-size:cover;
-  height:100vh;
-  width:100vh;
-  margin:5% 
-
+  background-size : cover;
+  height : 100vh;
+  width : 100vh;
+  margin : 5%;
 }
 

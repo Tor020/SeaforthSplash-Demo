@@ -106,116 +106,116 @@ section.tourdates {
 }
 @media screen and (min-width: 767px) and (max-width: 991px) {
 }
-@media (max-width: 767px) {
-  section.tourdates {
-    background-image : url("../images/lgTexture.png");
-    background-size : cover;
+// @media (max-width: 767px) {
+//   section.tourdates {
+//     background-image : url("../images/lgTexture.png");
+//     background-size : cover;
 
-    h2 {
-      font-weight : 500;
-      text-align : center;
-      width : 100%;
-      letter-spacing : 6.97px;
-    }
-    button.tourButton {
-      margin : 5% 45% 0 45%;
-      font-weight : 600;
-      letter-spacing : 3.8px;
-      padding : 18px;
-    }
-    display : none;
-  }
-  .tourdateButton {
-    // align-self:flex-end;
-    width : 100px;
-    height : 38px;
-    // width:200px;
-    font-size : 18px;
-    background-color : $lightgreen;
-    border : none;
-    padding : 8px ;
-    font-weight : 500;
-    display : none;
-  }
-  .tourdates {
-    height : 85vh;
-    display : none;
-  }
-  .bgfade {
-    background-image : url("../images/tourdatesBlend.png");
-    position : absolute;
-    // background:transparent;
-    background-size : cover;
-    height : 85vh;
-    width : 636px;
-    mix-blend-mode : luminosity;
-    display : none;
-    @include breakpoint(997px) {
-      height : 85vh;
-    }
-  }
+//     h2 {
+//       font-weight : 500;
+//       text-align : center;
+//       width : 100%;
+//       letter-spacing : 6.97px;
+//     }
+//     button.tourButton {
+//       margin : 5% 45% 0 45%;
+//       font-weight : 600;
+//       letter-spacing : 3.8px;
+//       padding : 18px;
+//     }
+//     display : none;
+//   }
+//   .tourdateButton {
+//     // align-self:flex-end;
+//     width : 100px;
+//     height : 38px;
+//     // width:200px;
+//     font-size : 18px;
+//     background-color : $lightgreen;
+//     border : none;
+//     padding : 8px ;
+//     font-weight : 500;
+//     display : none;
+//   }
+//   .tourdates {
+//     height : 85vh;
+//     display : none;
+//   }
+//   .bgfade {
+//     background-image : url("../images/tourdatesBlend.png");
+//     position : absolute;
+//     // background:transparent;
+//     background-size : cover;
+//     height : 85vh;
+//     width : 636px;
+//     mix-blend-mode : luminosity;
+//     display : none;
+//     @include breakpoint(997px) {
+//       height : 85vh;
+//     }
+//   }
 
 
 
-  .container-tourdates {
-    font-size : 18px;
-    margin : auto;
-    max-width : 900px;
-    display : grid;
-    grid-template-columns : 0.9fr 1.5fr 0.4fr;
-    grid-template-rows : 1fr 1fr 1fr;
-    gap : 3vh 30px;
-    grid-template-areas : ". . . "
-    ". . . "
-    ". . . ";
-    display : none;
-  }
+//   .container-tourdates {
+//     font-size : 18px;
+//     margin : auto;
+//     max-width : 900px;
+//     display : grid;
+//     grid-template-columns : 0.9fr 1.5fr 0.4fr;
+//     grid-template-rows : 1fr 1fr 1fr;
+//     gap : 3vh 30px;
+//     grid-template-areas : ". . . "
+//     ". . . "
+//     ". . . ";
+//     display : none;
+//   }
 
-  .tickets {
-    position : absolute;
-    left : 55%;
-    display : none;
-  }
+//   .tickets {
+//     position : absolute;
+//     left : 55%;
+//     display : none;
+//   }
 
-  .loc {
-    min-width : 90%;
-    display:none;
-  }
+//   .loc {
+//     min-width : 90%;
+//     display:none;
+//   }
 
-  .date {
-    text-align : right;
-    margin-right : 24px;
-  display:none;
-  }
+//   .date {
+//     text-align : right;
+//     margin-right : 24px;
+//   display:none;
+//   }
 
-  .tourdateButton {
-    text-align : right;
-    width : 100px;
-    height : 38px;
-    font-size : 18px;
-    background-color : $lightgreen;
-    border : none;
-    padding : 8px ;
-    font-weight : 500;
-  display:none;
-  }
+//   .tourdateButton {
+//     text-align : right;
+//     width : 100px;
+//     height : 38px;
+//     font-size : 18px;
+//     background-color : $lightgreen;
+//     border : none;
+//     padding : 8px ;
+//     font-weight : 500;
+//   display:none;
+//   }
 
-  .tourButton {
-    width : 200px;
-    font-size : 18px;
-    background-color : $lightgreen;
-    border : none;
-    padding : 8px ;
-    font-weight : 500;
-    margin : auto;
-    text-align : center;
-  display:none;
-  }
+//   .tourButton {
+//     width : 200px;
+//     font-size : 18px;
+//     background-color : $lightgreen;
+//     border : none;
+//     padding : 8px ;
+//     font-weight : 500;
+//     margin : auto;
+//     text-align : center;
+//   display:none;
+//   }
 
-  .tourdates-container {
-    background-image : src("../../images/lgTexture.png");
-  display:none;
-  }
-}
+//   .tourdates-container {
+//     background-image : src("../../images/lgTexture.png");
+//   display:none;
+//   }
+// }
 
 

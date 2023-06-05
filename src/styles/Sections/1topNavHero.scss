@@ -1,7 +1,7 @@
 
 .topnav {
   margin : 0 11% 0 11%;
-  height : 10vh;
+  min-height : 10vh;
   background-color : $beige;
   display : flex;
   flex-direction : row;
@@ -139,7 +139,7 @@ a{
   text-decoration:none;
   transition:all 0.7s;
  border-bottom:1px solid transparent;
-
+color:$characters;
 }
 a:visited{
 color:$characters;
